@@ -14,9 +14,9 @@ namespace question04
 
             if (isNum)
             {
-                for (var i = 0; i < 12; i++)
+                for (var i = 12; i > 0; i--)
                 {
-                    var a = i + 1;
+                    var a = i;
                     Console.WriteLine($"{a} x {number} = {a * number}");
                 }
             }
