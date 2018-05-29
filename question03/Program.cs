@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace question03
 {
@@ -11,9 +12,14 @@ namespace question03
 
             //List<string> fruitsArray = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"};
 
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
             foreach(var fruit in fruitsArray) {
                 Console.WriteLine(fruit);
             }
+
+            sw.Stop();
+            Console.WriteLine($"Time to run: {sw.Elapsed}");
         }
     }
 }
