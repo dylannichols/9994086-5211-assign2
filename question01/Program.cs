@@ -16,7 +16,7 @@ namespace question01
             Console.WriteLine(Greeting(fname, lname));
         }
 
-        string Greeting(string fname, string lname) {
+        static string Greeting(string fname, string lname) {
 
             return "Hello (fname) (lname) enjoy this assignemnt :-)";
         }
