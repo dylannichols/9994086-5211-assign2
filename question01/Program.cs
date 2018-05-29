@@ -10,7 +10,7 @@ namespace question01
             Console.WriteLine("What is your first name ?");
             var fname = Console.ReadLine();
 
-            Console.WriteLine('What is your last name ?"):
+            Console.WriteLine("What is your last name ?");
             var lname = Console.ReadLine();
 
             Console.WriteLine(Greeting(fname, lname));
