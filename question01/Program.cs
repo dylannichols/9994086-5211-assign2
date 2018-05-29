@@ -7,7 +7,7 @@ namespace question01
         static void Main(string[] args)
         {
             Console.WriteLine("Hi, please introduce yourself:");
-            Console.writeLine("What is your first name ?"):
+            Console.WriteLine("What is your first name ?");
             var fname = Console.ReadLine();
 
             Console.WriteLine('What is your last name ?"):
