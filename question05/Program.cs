@@ -19,7 +19,8 @@ namespace question05
                     var a = i + 1;
                     var num1 = a.ToString("00");
                     var num2 = number.ToString("00");
-                    Console.WriteLine($"{num1} / {num2} = {a / number}");
+                    var result = Math.Round((a / number), 2);
+                    Console.WriteLine($"{num1} / {num2} = {result}");
                 }
             }
         }
