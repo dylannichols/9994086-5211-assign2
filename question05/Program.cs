@@ -8,11 +8,19 @@ namespace question05
         {
             Console.WriteLine("Print out the division table for:");
 
-            var number = Console.ReadLine();
+            var input = Console.ReadLine();
 
-            for(var i = 0; i < 12; i++) {
-                var a = i + 1;
-                Console.WriteLine($"{a} x {number} = {a / number}");
+            var isNum = double.TryParse(input, out var number);
+
+            if (isNum)
+            {
+                for (var i = 0; i < 12; i++)
+                {
+                    var a = i + 1;
+                    var num1 = a.ToString("00");
+                    var num2 = number.ToString("00");
+                    Console.WriteLine($"{num1} x {num2} = {a / number}");
+                }
             }
         }
     }
