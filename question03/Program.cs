@@ -8,9 +8,9 @@ namespace question03
     {
         static void Main(string[] args)
         {
-            //string[] fruitsArray = new string[] {"Banana", "Grapefruit", "Tomato", "Oranges"};
+            string[] fruitsArray = new string[] {"Banana", "Grapefruit", "Tomato", "Oranges"};
 
-            List<string> fruitsArray = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"};
+            //List<string> fruitsArray = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"};
 
             Stopwatch sw = new Stopwatch();
             sw.Start();
